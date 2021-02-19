@@ -26,7 +26,7 @@ node{
              sh 'sudo docker login -u "mohamedalirezgui" -p "Hub123Docker@Hamaali" docker.io'
              //sh 'sudo docker push upasanatestdocker/mysql'
              //sh 'sudo docker push upasanatestdocker/job1_web1.0'
-             sh 'sudo docker push mohamedalirezgui/job1_web2.0'
+             sh 'sudo docker push mohamedalirezgui/job1_web2.0:tagname'
             // sh 'docker push upasanatestdocker/mysql'
           
     }
